@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conversor de moedas</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" async></script>
+    </head>
+    <body>
+        <header>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg">
+        </header>
+        <main>
+            <section>
+                <h1>Conversor de Moedas</h1>
+                <p>Descubra quanto vale** o Real (R$) em outras moedas.</p>
+            </section>
+            
+            <input type="number" id="valor" size="2" placeholder="Insira o valor em R$"><br>
+            <button type="button" onclick="Converter()">Converter</button>
+            
+            <h2 id="retornarValorEmDolar"></h2>
+            <h2 id="retornarValorEmEuro"></h2>
+            <h2 id="retornarValorEmLibra"></h2>
+            <h2 id="retornarValorEmBitcoin"></h2>
+            
+            <h2 id="avisoCotacao"></h2>
+        </main>
+        <footer>
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg">
+        </footer>
+    </body>
+</html>
