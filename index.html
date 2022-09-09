@@ -14,17 +14,16 @@
         <main>
             <section>
                 <h1>Conversor de Moedas</h1>
-                <p>Descubra quanto vale** o Real (R$) em outras moedas.</p>
+                <p>Descubra quanto vale o Real comparado com outras moedas.**</p>
             </section>
             
-            <input type="number" id="valor" size="2" placeholder="Insira o valor em R$"><br>
-            <button type="button" onclick="Converter()">Converter</button>
+            <input type="number" id="valor" size="2" placeholder="Insira o valor em Reais"><br>
+            <button type="button" onclick="converterEmDolar()">Converter em Dolar</button>
+            <button type="button" onclick="converterEmEuro()">Converter em Euro</button>
+            <button type="button" onclick="converterEmLibra()">Converter em Libra</button>
+            <button type="button" onclick="converterEmBitcoin()">Converter em Bitcoin</button>
             
-            <h2 id="retornarValorEmDolar"></h2>
-            <h2 id="retornarValorEmEuro"></h2>
-            <h2 id="retornarValorEmLibra"></h2>
-            <h2 id="retornarValorEmBitcoin"></h2>
-            
+            <h2 id="valorConvertido"></h2>
             <h2 id="avisoCotacao"></h2>
         </main>
         <footer>
