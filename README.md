@@ -20,6 +20,9 @@
 
 [https://raphaelsette.github.io/conversor-de-moedas/](https://raphaelsette.github.io/conversor-de-moedas/)
 
+<a href="https://raphaelsette.github.io/conversor-de-moedas/">
+<img Height="500em" src="https://img001.prntscr.com/file/img001/9LLpBtgFTDGVsLnuhROsjg.png"/></a>
+
 ## Referências
 
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators" target="_blank">Operadores boleanos</a>
