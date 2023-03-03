@@ -6,23 +6,23 @@
   ## 
   </div>
   
-  Desenvolvimento de um conversor de moedas utilizando JavaScript, HTML5 e CSS3.
-  - A página é capaz de converter:
+  Development of a currency converter using JavaScript, HTML5, and CSS3.
+  - The page is capable of converting:
   
 ||
 |------------------|
-|Reais em Dolares|
-|Reais em Euros|
-|Reais em Libras Esterlinas|
-|Reais em Bitcoins|
+|Brazilian Real to US Dollar|
+|Brazilian Real to Euro|
+|Brazilian Real to British Pound|
+|Brazilian Real to Bitcoin|
   
- ## Demonstração
+ ## Preview
 
-[https://raphaelsette.github.io/conversor-de-moedas/](https://raphaelsette.github.io/conversor-de-moedas/)
+[https://raphaelsette.github.io/alura-currencyconverter/](https://raphaelsette.github.io/alura-currencyconverter/)
 
-<a href="https://raphaelsette.github.io/conversor-de-moedas/">
+<a href="https://raphaelsette.github.io/alura-currencyconverter/">
 
-## Referências
+## References
 
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators" target="_blank">Operadores boleanos</a>
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat" target="_blank">parseFloat</a>
@@ -30,6 +30,6 @@
  - <a href="https://sweetalert2.github.io/" target="_blank">Sweetalert2</a>
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Documentação JavaScript</a>
 
-## Autores
+## Authors
 
 - [@raphaelsette](https://www.github.com/raphaelsette)
