@@ -5,6 +5,7 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,58 +14,74 @@ body {
     font-size: 16px;
     margin-bottom: 100px;
 }
+
 header {
     text-align: center;
     padding: 25px 0 0 0;
     background: #243B55;
 }
+
 main {
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
     background: linear-gradient(#243B55, #141E30);
 }
+
 main section h1 {
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
+
 main input {
     margin-top: 20px;
-    width: 25%;
-    height: 40px;
+    width: 850px;
+    height: 60px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: 500;
     resize: none;
 }
+
 main input:focus {
     outline: none;
     border: 2px solid #fada06;
     box-shadow: none;
 }
+
 main button {
     margin-top: 20px;
-    margin-bottom: 20px;
-    width: 15%;
-    height: 40px;
+    margin-bottom: 0px;
+    width: 430px;
+    height: 70px;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 17px;
     cursor: pointer;
     border: 0;
     background: #FFFFFF;
 }
+
 main button:hover {
     background: #fada06;
     color: #FFFFFF;
 }
+
 #valorConvertido {
-    padding: 30px;
-    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 40px;
     font-weight: bold;
 }
+
 #avisoCotacao {
     font-size: 12px;
+    padding-top: 10px;
     font-weight: bold;
     text-transform: lowercase;
 }
+
 footer {
     position: absolute;
     bottom: 0;
@@ -73,6 +90,7 @@ footer {
     background: #141E30;
     text-align: center;
 }
+
 footer img {
     margin: 0 auto 0 auto;
 }

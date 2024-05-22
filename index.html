@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <meta charset="UTF-8">
-        <link rel="icon" href="alura.svg">
+        <meta charset="UTF-8" />
+        <link rel="icon" href="alura.svg" />
         <title>Conversor de moedas</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
         <script src="script.js" async></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     </head>
     <body>
         <header>
-            <img src="logo-imersao.svg" alt="Logo Imersão DEV">
+            <img src="logo-imersao.svg" alt="Logo Imersão DEV" />
         </header>
         <main>
             <section>
                 <h1>Conversor de Moedas</h1>
                 <p>Descubra quanto vale o Real comparado com outras moedas.**</p>
             </section>
-            
-            <input type="number" id="valor" size="2" placeholder="Insira o valor em Reais"><br>
-            <button type="button" onclick="converterEmDolar()">Converter em Dolar</button>
-            <button type="button" onclick="converterEmEuro()">Converter em Euro</button>
-            <button type="button" onclick="converterEmLibra()">Converter em Libra</button>
-            <button type="button" onclick="converterEmBitcoin()">Converter em Bitcoin</button>
-            
+
+            <input type="number" id="valor" size="2" placeholder="Insira o valor em Reais"/>
+
+            <section>
+                <button type="button" onclick="converterEmDolar()">Converter em Dolar</button>
+                <button type="button" onclick="converterEmEuro()">Converter em Euro</button>
+            </section>
+            <section> 
+                <button type="button" onclick="converterEmLibra()">Converter em Libra</button>
+                <button type="button" onclick="converterEmBitcoin()">Converter em Bitcoin</button>
+            </section>
+
             <h2 id="valorConvertido"></h2>
             <h2 id="avisoCotacao"></h2>
         </main>
-        <footer>
-            <img src="alura.svg" alt="Logo Alura">
-        </footer>
     </body>
+    <footer>
+        <img src="alura.svg" alt="Logo Alura" />
+    </footer>
 </html>
