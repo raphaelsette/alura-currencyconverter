@@ -8,7 +8,7 @@
   </div>
   
 # 💰 Conversor de Moedas
-Este projeto é um conversor de moedas dinâmico desenvolvido durante a **Imersão Dev da Alura**. A aplicação permite que o usuário insira um valor em Reais (BRL) e obtenha a conversão instantânea para outras moedas, utilizando cotações reais atualizadas via API.
+Este projeto é um conversor de moedas dinâmico. A aplicação permite que o usuário insira um valor em Reais (BRL) e obtenha a conversão instantânea para outras moedas, utilizando cotações reais atualizadas via API.
   
 ## 🚀 Funcionalidades
 A página é capaz de realizar as seguintes conversões:
