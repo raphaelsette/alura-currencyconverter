@@ -21,6 +21,8 @@ A página é capaz de realizar as seguintes conversões:
 
 O projeto pode ser acessado diretamente através do GitHub Pages: 👉 https://raphaelsette.github.io/alura-currencyconverter/
 
+<img src="./assets/img/screenshots/print_1.png" width="800px">
+
 ## 📝 Referências
 
  - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators" target="_blank">MDN - Operadores boleanos</a>
